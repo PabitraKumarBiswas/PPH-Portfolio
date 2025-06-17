@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pabitra Kumar Biswas - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#home" class="logo">Pabitra</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <img src="profile.jpg" alt="Pabitra Kumar Biswas" class="profile-img" />
+        <h1>Pabitra Kumar Biswas</h1>
+        <p>Computer Science & Engineering Student | AI, ML, DL Enthusiast | Photographer & Traveler</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate student from Pabna University of Science and Technology,
+            currently studying Computer Science and Engineering. I focus on research based on Artificial Intelligence, Machine Learning, and Deep Learning. I also enjoy photography and traveling.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python Programming</li>
+            <li>Machine Learning & Deep Learning</li>
+            <li>Data Analysis & Visualization</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Carousel -->
+        <div class="carousel">
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-slide current-slide">
+                        <img src="emotion_detection.jpg" alt="AI-Based Emotion Detection" />
+                        <h3>AI-Based Emotion Detection</h3>
+                        <p>Developed a machine learning model to detect emotions from physiological signals.</p>
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="portfolio_website.jpg" alt="Portfolio Website" />
+                        <h3>Portfolio Website</h3>
+                        <p>Created a personal portfolio website using HTML and CSS.</p>
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="photography_blog.jpg" alt="Photography Blog" />
+                        <h3>Photography Blog</h3>
+                        <p>A blog site showcasing travel and photography work.</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-button left">&#10094;</button>
+            <button class="carousel-button right">&#10095;</button>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label><br/>
+            <input type="text" id="name" name="name" placeholder="Your Name" required /><br/>
+
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" name="email" placeholder="Your Email" required /><br/>
+
+            <label for="message">Message</label><br/>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea><br/>
+
+            <button type="submit">Send</button>
+        </form>
+
+        <p>Email: pabitra@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/pabitrakumar" target="_blank" rel="noopener noreferrer">linkedin.com/in/pabitrakumar</a></p>
+        <p>GitHub: <a href="https://github.com/PabitraKumarBiswas" target="_blank" rel="noopener noreferrer">github.com/PabitraKumarBiswas</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Pabitra Kumar Biswas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
